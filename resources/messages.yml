@@ -1,0 +1,24 @@
+# SimpleAuth 1.4.0 language file
+
+join:
+ message: "simpleauth.msgLogin"
+ register: "simpleauth.error.msgNotRegistered"
+ login: "simpleauth.error.msNotLoggedIn"
+
+register:
+ usage: "/register <password>"
+ description: "Registers an account"
+ permission: "You do not have permission to use the register command!"
+ error:
+  password: "simpleauth.error.msgPasswordTooShort"
+  registered: "simpleauth.error.msgAlreadyRegistered"
+  general: "simpleauth.error.msgGeneral"
+
+login:
+ usage: "/login <password>"
+ description: "Logs into an account"
+ permission: "You do not have permission to use the login command!"
+ success: ""
+ error:
+  password: "Incorrect password!"
+  registered: "This account is not registered."
